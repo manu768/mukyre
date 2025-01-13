@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #c80606;
+    height: 50px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu a:link {
+    box-shadow: 0px 5px 0px #d8d8d8;
+}
+
+.menu a:hover {
+    box-shadow: 0px 2px 0px #d8d8d8;
+}
+
+.menu a:active {
+    width: 30px;
+    padding: 5px;
+    font-size: 10px;
+    box-shadow: none;
+}
+
+h2 {
+    color: #ff5656;
+    font-size: 30px;
+    padding: 10px;
+}
+
+h3 {
+    background: #5d7f2d;
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+div {
+    width: 1000px;
+    background: #c80606;
+    color: #000000;
+    margin: 3px 10px;
+    padding: 15px;
+    border: 1px solid #000;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.caja {
+    width: 200px;
+    position: absolute;
+    left: 1050px;
+    top: 287px;
+    background: blue;
+}
+
+footer p {
+    background: #d60000;
+    width: 420px;
+    padding: 10px;
+    position: absolute;
+    left: 18px;
+}
